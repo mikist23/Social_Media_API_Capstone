@@ -135,6 +135,13 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
+# Security settings
+SECURE_BROWSER_XSS_FILTER = True
+X_FRAME_OPTIONS = 'DENY'
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SECURE_SSL_REDIRECT = False # Ensure your hosting supports HTTPS.
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
