@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i-xp&)75ph6utivp6ed3f(!faed+d$(lq*359$v^ol^@u8x6=b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['SocialMediaApi.pythonanywhere.com']
 
 
 # Application definition
