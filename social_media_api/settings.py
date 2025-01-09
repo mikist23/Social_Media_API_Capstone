@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
+    'posts',
     'rest_framework',
     'rest_framework.authtoken',
 ]
@@ -124,7 +125,7 @@ AUTHENTICATION_BACKENDS = [
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'accounts.authentication.BearerTokenAuthentication', # Use your custom class
-        # 'posts.authentication.BearerTokenAuthentication', 
+        'posts.authentication.BearerTokenAuthentication', 
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
