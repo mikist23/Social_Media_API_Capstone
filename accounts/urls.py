@@ -17,3 +17,7 @@ urlpatterns = [
     path('following/', UserFollowingListView.as_view(), name='user-following'),
 
 ]
+
+
+
+
