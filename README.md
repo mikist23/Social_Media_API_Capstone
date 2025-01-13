@@ -56,6 +56,7 @@ This project is a RESTful API for a social media platform designed to handle ess
 
 ✅ Technologies Used
 Python
+Django
 Django REST Framework
 Token-based Authentication
 MySQL
