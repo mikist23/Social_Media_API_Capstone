@@ -25,3 +25,4 @@ urlpatterns = [
     path('api/', include('notifications.urls')),
     path('swagger/', schema_view.as_view(), name='schema-swagger-ui'),  # Swagger UI for API docs
 ]
+
