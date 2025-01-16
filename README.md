@@ -61,4 +61,4 @@ Django REST Framework
 Token-based Authentication
 MySQL
 PythonWhere for hosting
-LINK: https://socialmediaapi.pythonanywhere.com
+LINK:https://socialmediaapi.pythonanywhere.com
