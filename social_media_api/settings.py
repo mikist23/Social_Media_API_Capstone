@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i-xp&)75ph6utivp6ed3f(!faed+d$(lq*359$v^ol^@u8x6=b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','SocialMediaApi.pythonanywhere.com']
 
